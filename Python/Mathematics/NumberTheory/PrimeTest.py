@@ -7,12 +7,12 @@ while True:
     i = 2
     time1 = time.process_time()
     if a > 1:
-        while a % i != 0:
+        while a % i != 0 and i < a ** 0.5:
             i += 1
     time2 = time.process_time()
-    if i < a:
+    if i < a**0.5:
         print(f"{a} is composite and its smallest factor is {i}.")
-    elif i == a:
+    elif i >= a**0.5:
         print(f"{a} is prime.")
     else:
         print("1 is neither prime nor composite.")
