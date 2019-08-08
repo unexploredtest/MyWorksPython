@@ -18,7 +18,7 @@ plt.title("e^x by numpy function.")
 
 # Second method(using the dy/dx = y, y(0)=1):
 
-dx = 0.0001
+dx = 0.01
 x = np.arange(0, 3.00000001, dx)
 x = list(x)
 y = [1.0]

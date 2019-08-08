@@ -14,6 +14,6 @@ for i in  range(2, n):
 #     write.writelines(str(Fib))
 
 # If you wanted to know the golden ratio:
-# for i in range(1,n):
-#     e = Fib[i] / Fib[i-1]
-#     print(e)
+for i in range(1,n):
+    e = Fib[i] / Fib[i-1]
+    print(e)
