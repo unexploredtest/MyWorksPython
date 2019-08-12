@@ -15,9 +15,14 @@ def TLCM(list_numbers):
     c = list_numbers[0]
     g = c
     for i in list_numbers:
+        print(i)
         c = g
         while g % i != 0:
             g += c
-            print(g)
+            #print(g)
         c = g
     return int(c)
+
+if __name__ == "__main__":
+    a = TLCM(list_past(100000))
+    print(a)
