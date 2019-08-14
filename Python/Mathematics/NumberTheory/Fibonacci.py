@@ -10,10 +10,10 @@ for i in  range(2, n):
     print(Fib[i])
 
 # If you wanted to store the sequance:
-# with open("Fibonacci.txt", "w") as write:
-#     write.writelines(str(Fib))
+with open("Fibonacci.txt", "w") as write:
+    write.writelines(str(Fib))
 
 # If you wanted to know the golden ratio:
-for i in range(1,n):
-    e = Fib[i] / Fib[i-1]
-    print(e)
+# for i in range(1,n):
+#     e = Fib[i] / Fib[i-1]
+#     print(e)
