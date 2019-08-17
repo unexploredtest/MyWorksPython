@@ -24,5 +24,5 @@ def TLCM(list_numbers):
     return int(c)
 
 if __name__ == "__main__":
-    a = TLCM(list_past(100000))
+    a = TLCM(list_past(10000))
     print(a)

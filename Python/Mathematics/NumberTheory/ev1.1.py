@@ -7,9 +7,9 @@ from Simple.TLCM import list_past, TLCM
 import decimal as d
 
 times = int(input("How many time would you like to compute e?"))
+tlcm = 1
 x = list(range(1, times))
 y = []
-tlcm = 1
 for i in x:
     tlcm = TLCM([tlcm, i])
     tlcml = d.Decimal(tlcm) ** d.Decimal(1/i)
