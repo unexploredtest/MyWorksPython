@@ -14,8 +14,17 @@ for label in ax1.yaxis.get_ticklabels():
 ax1.xaxis.label.set_color("orange")
 ax1.yaxis.label.set_color("blue")
 
-ax1.set_yticks(list(range(0, 10001, 1000)))
-ax1.set_xticks(list(range(0, 101, 10)))
+
+
+ax1.spines["left"].set_color("blue")
+ax1.spines["bottom"].set_color("orange")
+ax1.spines["top"].set_visible(False)
+ax1.spines["right"].set_visible(False)
+
+ax1.spines["left"].set_linewidth(2)
+ax1.spines["bottom"].set_linewidth(2)
+
+plt.set_xticks([1,2,3,4,5,6,7,8,9])
 
 ax1.plot(x, y, color="green", label="x^2", linewidth=2.5)
 
@@ -25,6 +34,8 @@ plt.title("A porabebla")
 plt.legend()
 ax1.grid(True, color="black", linestyle="--", linewidth=0.5)
 ax1.fill_between(x, y, 1000, alpha=1, facecolor="red")
+
+ax1.tick_params(axis="x", color="yellow")
 
 plt.subplots_adjust(right=0.9, left=0.15, bottom=0.15, top=0.9, wspace=0.1, hspace=0.1)
 plt.show()
