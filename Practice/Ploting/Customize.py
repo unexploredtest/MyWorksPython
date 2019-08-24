@@ -24,7 +24,7 @@ ax1.spines["right"].set_visible(False)
 ax1.spines["left"].set_linewidth(2)
 ax1.spines["bottom"].set_linewidth(2)
 
-plt.set_xticks([1,2,3,4,5,6,7,8,9])
+ax1.set_xticks(list(range(0, 101, 5)))
 
 ax1.plot(x, y, color="green", label="x^2", linewidth=2.5)
 

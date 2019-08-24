@@ -44,6 +44,7 @@ plt.ylim(-6,8)
 plt.xlabel("x")
 plt.ylabel("sin(x)")
 
+plt.subplots_adjust(left=0.08, right=0.95, bottom=0.1 , top=0.95)
 plt.title("The graph of x*sin(x) in interval [0,10]")
 plt.legend()
 plt.show()
