@@ -44,4 +44,4 @@ def TLCM2(list_numbers):
 
 
 if __name__ == "__main__":
-    print(TLCM2(list_past(500000)), "The second value")
+    print(TLCM2(list_past(8000)), "The second value")
