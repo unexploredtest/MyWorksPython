@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x1 = np.linspace(0, 4, 4000)
-y1 = (np.sin(x1)) * x1
+y1 = ((np.sin(x1)) * x1)
 
 x2 = np.linspace(4, 6, 2000)
 y2 = (np.sin(x2)) * x2
@@ -47,4 +47,6 @@ plt.ylabel("sin(x)")
 plt.subplots_adjust(left=0.08, right=0.95, bottom=0.1 , top=0.95)
 plt.title("The graph of x*sin(x) in interval [0,10]")
 plt.legend()
+
+plt.tight_layout()
 plt.show()

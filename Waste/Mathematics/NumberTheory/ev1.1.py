@@ -3,7 +3,7 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-from Simple.TLCM import list_past, TLCM
+from Simple.TLCM2 import list_past, TLCM2
 import decimal as d
 
 times = int(input("How many time would you like to compute e?"))
@@ -11,7 +11,7 @@ tlcm = 1
 x = list(range(1, times))
 y = []
 for i in x:
-    tlcm = TLCM([tlcm, i])
+    tlcm = TLCM2([tlcm, i])
     tlcml = d.Decimal(tlcm) ** d.Decimal(1/i)
     y.append(tlcml)
 
