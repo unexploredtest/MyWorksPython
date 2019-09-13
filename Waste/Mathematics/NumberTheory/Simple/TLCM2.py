@@ -1,6 +1,8 @@
 # Some important functions
 from Primes100000 import *
 # Returns a list for a number and its n-1, n-2, ..., 2, 1
+
+
 def list_past(number):
     numbers = []
     while number > 0:
@@ -9,6 +11,8 @@ def list_past(number):
     return numbers
 
 # Detirmines The Least Common Multipul(TLCM) for two or more numbers
+
+
 def TLCM(list_numbers):
     list_numbers = sorted(list_numbers)
     list_numbers.reverse()
@@ -19,9 +23,10 @@ def TLCM(list_numbers):
         c = g
         while g % i != 0:
             g += c
-            #print(g)
+            # print(g)
         c = g
     return int(c)
+
 
 def TLCM2(list_numbers):
     if max(list_numbers) < 100000:
@@ -40,7 +45,6 @@ def TLCM2(list_numbers):
     non_primes.append(x)
 
     return TLCM(non_primes)
-
 
 
 if __name__ == "__main__":

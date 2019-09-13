@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.style.use("fivethirtyeight")
+
 x =  np.linspace(-8, 8, 200000)
 sinx = np.sin(x)
 

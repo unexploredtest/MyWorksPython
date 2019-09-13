@@ -5,6 +5,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+plt.style.use("grayscale")
+
 a = np.linspace(0, 3, 30001)
 b = np.exp(a)
 
@@ -16,9 +18,11 @@ plt.axvline(x=0, zorder=-1)
 plt.legend(loc="upper left", title="Exponential")
 plt.title("e^x by numpy function.")
 
+plt.grid(True, linestyle="--")
+
 # Second method(using the dy/dx = y, y(0)=1):
 
-dx = 0.01
+dx = 0.001
 x = np.arange(0, 3.00000001, dx)
 x = list(x)
 y = [1.0]
@@ -35,6 +39,8 @@ plt.axhline(y=0, zorder=-1)
 plt.axvline(x=0, zorder=-1)
 plt.legend(loc="upper left", title="Exponential")
 plt.title("e^x by difinetion.")
+
+plt.grid(True, linestyle="--")
 
 plt.savefig("ComperingExponentials.png")
 
