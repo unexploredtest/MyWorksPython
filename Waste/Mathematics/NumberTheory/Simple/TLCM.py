@@ -10,6 +10,7 @@ def list_past(number):
         number -= 1
     return numbers
 
+
 # Detirmines The Least Common Multipul(TLCM) for two or more numbers
 
 
