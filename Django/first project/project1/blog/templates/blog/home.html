@@ -8,8 +8,8 @@
       <div class="media-body">
         <div class="article-metadata">
           <a class="mr-2" href="#">{{ comment.author }}</a>
-          <small class="text-muted">{{ comment.date }}</small>
-        </div>
+          <small class="text-muted">{{ comment.date_posted|date:"Y/m/d, l"  }}</small>
+|        </div>
         <h2><a class="article-title" href="#">{{ comment.title }}</a></h2>
         <p class="article-content">{{ comment.content }}</p>
       </div>
