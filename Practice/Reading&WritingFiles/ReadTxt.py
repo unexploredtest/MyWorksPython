@@ -8,7 +8,7 @@ for line in Login_Info:
 # If you wanted to reset or read the text from a particular word:
 Login_Info.seek(50)
 
-# If you would like to not have a space bitween lines:
+# If you would like not to have a space bitween lines:
 for line in Login_Info:
     print(line.rstrip())
 

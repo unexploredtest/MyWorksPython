@@ -1,0 +1,20 @@
+{% extends 'blog/basement.html' %}
+
+{% block content %}
+
+  {% for comment in comments %}
+
+    <article class="media content-section">
+      <div class="media-body">
+        <div class="article-metadata">
+          <a class="mr-2" href="#">{{ comment.author }}</a>
+          <small class="text-muted">{{ comment.date }}</small>
+        </div>
+        <h2><a class="article-title" href="#">{{ comment.title }}</a></h2>
+        <p class="article-content">{{ comment.content }}</p>
+      </div>
+    </article>
+
+  {% endfor %}
+
+{% endblock content %}

@@ -1,0 +1,30 @@
+[2019.11.06 19:45:57] Launched version: 1008015, install beta: [FALSE], alpha: 0, debug mode: [FALSE], test dc: [FALSE]
+[2019.11.06 19:45:57] Executable dir: C:/Users/aliPMPAINT/Desktop/Softwares/Telegram/, name: Telegram.exe
+[2019.11.06 19:45:57] Initial working dir: C:/Users/aliPMPAINT/Desktop/Softwares/Telegram/
+[2019.11.06 19:45:57] Working dir: C:/Users/aliPMPAINT/Desktop/Softwares/Telegram/
+[2019.11.06 19:45:57] Command line: C:\Users\aliPMPAINT\Desktop\Softwares\Telegram\Telegram.exe
+[2019.11.06 19:45:57] Executable path before check: C:/Users/aliPMPAINT/Desktop/Softwares/Telegram/Telegram.exe
+[2019.11.06 19:45:57] Logs started
+[2019.11.06 19:45:57] Connecting local socket to Global\4da145d54efcef30cd596f53365eb865-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2019.11.06 19:45:57] This is the only instance of Telegram, starting server and app...
+[2019.11.06 19:45:57] Moved logging from 'C:/Users/aliPMPAINT/Desktop/Softwares/Telegram/log_start1.txt' to 'C:/Users/aliPMPAINT/Desktop/Softwares/Telegram/log.txt'!
+[2019.11.06 19:45:57] Old start log 'log_start0.txt' found, deleted: [TRUE]
+[2019.11.06 19:45:57] Primary screen DPI: 288
+[2019.11.06 19:45:57] App Info: reading settings...
+[2019.11.06 19:45:57] App Info: reading encrypted settings...
+[2019.11.06 19:45:57] Lang Info: Loaded cached, keys: 2521
+[2019.11.06 19:45:58] OpenAL Logging Level: (not set)
+[2019.11.06 19:45:58] Audio Playback Devices: OpenAL Soft
+[2019.11.06 19:45:58] Audio Playback Default Device: OpenAL Soft
+[2019.11.06 19:45:58] Audio Capture Devices: 
+[2019.11.06 19:45:58] Audio Capture Default Device: 
+[2019.11.06 19:45:58] Audio Error: Could not open capture device!
+[2019.11.06 19:45:58] App Info: reading map...
+[2019.11.06 19:45:58] App Info: reading encrypted map...
+[2019.11.06 19:45:58] App Info: reading encrypted user settings...
+[2019.11.06 19:45:58] App Info: encrypted user settings read.
+[2019.11.06 19:45:58] App Info: reading encrypted mtp data...
+[2019.11.06 19:45:58] MTP Info: read keys, current: 5, to destroy: 0
+[2019.11.06 19:45:58] Map read time: 60
+[2019.11.06 19:45:58] Export Info: Destroy top bar by controller removal.
+[2019.11.06 19:45:58] Window Shadow: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3, 3, 4, 6, 7, 8, 9, 12, 13, 14, 17, 20, 21, 24, 26, 27, 30, 32, 33, 42
