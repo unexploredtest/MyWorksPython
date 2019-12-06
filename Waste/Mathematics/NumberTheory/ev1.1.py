@@ -1,9 +1,14 @@
 # I heard a formula which
 # says lim(x => infinity)[(The least common factor of 1 to n) ** 1/n] = e
 
+import sys
+
+sys.path.append('/Users/aliPMPAINT/Desktop')
+print(sys.path)
+
 import matplotlib.pyplot as plt
 import numpy as np
-from Simple.TLCM2 import list_past, TLCM2
+from Simple.TLCM import list_past, TLCM
 import decimal as d
 
 times = int(input("How many time would you like to compute e?"))
@@ -11,7 +16,7 @@ tlcm = 1
 x = list(range(1, times))
 y = []
 for i in x:
-    tlcm = TLCM2([tlcm, i])
+    tlcm = TLCM([tlcm, i])
     tlcml = d.Decimal(tlcm) ** d.Decimal(1/i)
     y.append(tlcml)
 

@@ -33,7 +33,7 @@ comments = [
 ]
 
 def home(request):
-    context = { "comments": Post.objects.all()}
+    context = { "comments": Post.objects.order_by('date_posted').reverse() }
 
     return render(request, "blog/home.html", context)
 
