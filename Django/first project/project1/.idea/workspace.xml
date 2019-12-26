@@ -7,6 +7,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
@@ -21,6 +24,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="project1" type="Python.DjangoServer" factoryName="Django server">
@@ -71,6 +75,8 @@
       <updated>1576482183922</updated>
       <workItem from="1576482230882" duration="263000" />
       <workItem from="1576482518913" duration="83000" />
+      <workItem from="1577180199914" duration="927000" />
+      <workItem from="1577188014218" duration="837000" />
     </task>
     <servers />
   </component>
@@ -78,9 +84,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="343" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1576482590907">
+    <state x="150" y="0" key="SettingsEditor" timestamp="1577180808485">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="343" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1576482590907" />
+    <state x="150" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1577180808485" />
+    <state x="343" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1577188018159">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="343" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1577188018159" />
   </component>
 </project>
