@@ -5,3 +5,4 @@ urlpatterns = [
     path('', views.home, name="home-blog"),
     path("about/", views.about, name="about-blog"),
 ]
+
